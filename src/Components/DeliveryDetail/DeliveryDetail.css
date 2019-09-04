@@ -1,0 +1,10 @@
+h2 > span {
+    color: #666;
+    padding-left: 30px;
+}
+
+.ant-layout-content {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0px !important;
+}

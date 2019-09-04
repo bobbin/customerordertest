@@ -1,0 +1,35 @@
+.sumatories {
+    width: 100%;
+    display: flex;
+    min-width: 1010px;
+    margin-bottom: 0px;
+    min-width: 1238px;
+}
+
+.sumatories .emptyField {
+    width: 88%;
+}
+
+.sumatories .sumField {
+    width: 127px;
+}
+
+.sumatories .sumField p{
+    background: rgb(226, 226, 226);
+    /* background: rgb(198, 198, 198); */
+    padding: 6px;
+    width: 95%;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    /* color: white; */
+    color: #7b6668;
+    font-weight: bold;
+    margin: 0px 0px 0px 5%;
+    font-size: 0.85rem;
+
+}
+
+.sumatories .sumField p:hover {
+    background: rgb(198, 198, 198);
+}
+

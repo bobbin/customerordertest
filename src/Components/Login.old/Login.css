@@ -1,0 +1,141 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('background-za.jpg') center no-repeat;
+    filter: grayscale(100%);
+    background-size: cover; 
+}
+
+/* .wrapper::before {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('background-za.jpg') center no-repeat;
+    filter: grayscale(100%);
+    background-size: cover; 
+    z-index: -1;
+} */
+
+.background {
+    position: fixed;
+    top: 0;
+    /* left: -150px; */
+    filter: grayscale(100%);
+    background-size: cover; 
+}
+
+
+
+
+.contenedorForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.login-box {
+    width: 450px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(220, 220, 220, 0.9);
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 15px 15px;
+    align-items: center;
+    z-index: 1;
+  }
+
+.contenedor-logo {
+    width: 100%;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.contenedor-logo h2 {
+    color: #555;
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 4px 0;
+}
+h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 4px 0;
+}
+
+.contenedor-form {
+    width: 100%;
+    display: block;
+}
+
+.form-group {
+    font-size: 16px;
+    margin: 15px 0;
+    display: block;
+}
+
+.form-group label {
+    color: white;
+}
+  
+
+input.emailSignInInput {
+    width: 100%;
+    height: 45px;
+    color: #666;
+    padding: 10px;
+}
+
+input.passwordSignInInput {
+    width: 100%;
+    height: 45px;
+    color: #666;
+    padding: 10px;
+}
+
+.login-box button {
+    display: block;
+    width: 100%;
+    height: 45px;
+    background-color: rgba(90, 90, 90, 0.8);
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.login-box .alternativeLogin {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.login-box .alternativeLogin img{
+    width: 30px;
+    margin-right: 15px;
+}
+
+@media all and (max-width: 500px) {
+    .login-box {
+        width: 90vw;
+        height: 90vh;
+        z-index: 1;
+        transform: translate(-50%, -50%);
+      }
+
+}

@@ -1,0 +1,24 @@
+.ant-layout-header {
+    background: #7B6768;
+    min-width: 1300px;
+}
+
+.ant-menu-dark, .ant-menu-dark .ant-menu-sub {
+    background: #7B6768;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected {
+    background: rgb(77, 64, 64);
+}
+
+span.header_title {
+    font-size: 2.5vw;
+    margin-left: 4%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    line-height: 64px;
+}
+
+/* .ant-menu-dark.ant-menu-horizontal > .ant-menu-item {
+    top: -5px !important;
+} */

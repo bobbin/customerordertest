@@ -1,0 +1,31 @@
+.filtersForm form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.filtersForm form label, .filtersForm form button{
+    font-size: 16px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.filtersForm form label {
+    display: block
+}
+
+.filtersForm form input, .filtersForm form select {
+    height: 30px;
+    /* border: none; */
+    /* border-bottom: 1px gray solid; */
+    /* min-width: 100%; */
+}
+
+label { 
+    color: #666666 !important;
+}
+
+form Button {
+    background-color: #ccc !important;
+    margin-top: 24px;
+}

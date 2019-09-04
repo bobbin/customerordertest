@@ -1,0 +1,51 @@
+.loginTitleContainer {
+    background: #7B6768;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.loginTitleContainer .loginTitle{
+    color: white;
+    margin: 0 auto;
+}
+
+.loginButtonContainer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+}
+
+.loginButtonContainer button{
+    margin: 0 auto;
+    background: #7B6768;
+    border: #7B6768;
+}
+
+.loginButtonContainer button:hover{
+    margin: 0 auto;
+    background: rgb(153, 127, 129);
+    border: #7B6768;
+}
+
+.loginButtonContainer button::selection{
+    margin: 0 auto;
+    background: #7B6768;
+    border: #7B6768;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #7B6768;
+    display: flex;
+    align-items: center;
+}
+
+footer p{
+    margin: 15px 15px;
+    color: white;
+}
+
